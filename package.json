@@ -1,0 +1,26 @@
+{
+  "name": "data-structure-and-algorithim",
+  "version": "1.0.0",
+  "description": "DSA",
+  "main": "index.js",
+  "scripts": {
+      "git": "git add . && git commit -m",
+    "postgit": "git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunOpt/data-structure-and-algorithim.git"
+  },
+  "keywords": [
+    "data",
+    "structure",
+    "algoritim"
+  ],
+  "author": "Arun Surendharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunOpt/data-structure-and-algorithim/issues"
+  },
+  "homepage": "https://github.com/arunOpt/data-structure-and-algorithim#readme"
+}
