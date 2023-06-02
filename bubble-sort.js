@@ -1,7 +1,7 @@
 //To sort array in asc order using bubble sort algorithm
 
 //Input
-const arrayToSort=[8,6,1, 7, 2,4]
+const arrayToSort=[]
 //code
 function bubbleSort(arrayToSort){
     let result=[...arrayToSort]
@@ -13,10 +13,9 @@ function bubbleSort(arrayToSort){
         for (let i=0; i<length-1; i++){
             if(result[i]>result[i+1]){
                 iterations++
-                let a=  result[i]
-                let b=result[i+1]
-                result[i]=b;
-                result[i+1]=a           
+                let temp=  result[i]
+                result[i]=result[i+1];
+                result[i+1]=temp           
             }
         }
         if(iterations===0){
